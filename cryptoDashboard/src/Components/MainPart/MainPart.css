@@ -1,0 +1,11 @@
+@media screen {
+    
+    .main_body{
+        display: grid;    
+        grid-template-columns: auto 27rem;
+        background-color: rgb(227, 227, 227);
+        gap: 0.5rem;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,45 @@
+@media screen {
+.imgName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+  
+.inImg > img {
+  width: 4rem;
+  height: 4rem;
+}
+.h3Img > h2 {
+  margin-left: 2rem;
+}
+
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.fixfrem {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  justify-content: flex-start;
+}
+.maindiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 1rem;
+  border-bottom: 1px solid rgb(46, 46, 46);
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.coin-percent-red {
+  color: red;
+}
+.coin-percent-green {
+  color: green;
+}
+}
